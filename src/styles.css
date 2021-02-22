@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background-color: grey;
+  margin: 0 20px 0 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.gallery-item {
+  padding: 0;
+  width: 25%;
+}
+
+.photo-card {
+  margin: 20px;
+  
+}
+
+.photo {
+  height: 15vw;
+  width: 100%;
+  border-radius: 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.stats-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.material-icons {
+  margin-right: 5px;
+  color: white;
+  font-size: 15px;
+}
+
+.js-input {
+  width: 400px;
+  height: 50px;
+  font-size: 15px;
+  background-color: #c1b2e4;
+  border-radius: 5px;
+  border: 3px solid black;
+  outline: none;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.search-form {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  height: 50px;
+  border-radius: 3px;
+  outline: none;
+  border: #c1b2e4;
+  background-color: #c1b2e4;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.button-load.is-hidden {
+  display: none;
+}
+
+.spinner {
+  margin-left: 49%;
+}
